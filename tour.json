@@ -1,0 +1,57 @@
+{
+   "0":{
+       "id":"elem1",//the id of the element
+       "title": "Welcome!",//title of the popover
+       "body": "How do you do",//the body of the popover
+       "placement": "bottom",//the placement of the popover relatively to the element
+       "height": "400",//hieght of the popver window
+       "width": "500"//width of the popover window
+      },
+   "1": {
+        "id":"elem2",
+        "title": "Hi",
+        "body": "Hey there",
+        "placement": "right",
+        "height": "200",
+        "width": "250"
+   },
+   "2": {
+        "id":"elem3",
+        "title": "Nice to meet you",
+        "body": "hope it's matual!",
+        "placement": "right",
+        "height": "200",
+        "width": "250"
+   },
+   "3":{
+        "id": "elem4",
+        "title": "Some more content",
+        "body": "And some more",
+        "placement": "right",
+        "clickElement" : "shareJob_0",
+        "children":{
+                    "0":{
+                          "id": "elem4child",
+                          "title": "Some nested content",
+                          "body": "L=ike an inner part of a grid",
+                          "placement": "top",
+                          "clickElement" : "returnToList"
+                    }
+                 
+
+        }
+   },
+   "4":{
+       "id":"elem5",
+       "title":"ALmost done!",
+       "body":"JUst a bit more",
+       "placement": "right"
+   },
+  "5":{
+       "id":"elem6",
+       "title":"Come again",
+       "body":"See you soon",
+       "placement": "bottom"
+   }
+}
+
